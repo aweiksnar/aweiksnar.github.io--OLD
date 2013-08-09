@@ -1,0 +1,85 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}  /* for IE/Mac */
+
+#main_nav_icon {
+  height: 80px;
+  width: 150px;
+  line-height: 80px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  float: left;
+  display: inline-block;
+}
+
+#main_circle_text {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_list {
+  float: left;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  background-color: #5c7de5;
+  color: white;
+  margin-left: 1em;
+  line-height: 80px;
+  text-align: center;
+}
+
+a.nav_link {
+  color: white;
+}
+
+#twitter_ipsum {
+  background-color: black;
+  color: white;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+#patchlearn {
+  background-color: #454A55;
+  color: #F57676;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+#happilabs {
+  background-color: #00AEEF;
+  color: #FFFF00;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-top: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+.icon_image {
+  padding-top: 2em;
+  width: 200px;
+}
+
+#middle_icon {
+  margin-left: 7.95px;
+  margin-right: 7.95px;
+}
+

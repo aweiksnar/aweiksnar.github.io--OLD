@@ -1,0 +1,34 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="projects">
+
+  <a href="http://twitteripsum.herokuapp.com" id="twitter_ipsum">Twitter Ipsum</a>
+  <a href= "http://www.patchlearn.com" id="patchlearn">PatchLearn</a>
+  <a href="http://www.happilabs.org" id="happilabs">Happilabs</a>
+
+</div>
+
+<script>
+
+    $("#twitter_ipsum").mouseover(function() {
+        $(this).text("Generates lorem ipsum from twitter");
+      }).mouseout(function(){
+        $(this).text("Twitter Ipsum");
+    });
+
+    $("#patchlearn").mouseover(function() {
+        $(this).text("Collect and share your favorite learning links");
+      }).mouseout(function(){
+        $(this).text("PatchLearn");
+    });
+
+    $("#happilabs").mouseover(function() {
+        $(this).text("Collecting data and reviews for scientific products");
+      }).mouseout(function(){
+        $(this).text("Happilabs");
+    });
+
+</script>
