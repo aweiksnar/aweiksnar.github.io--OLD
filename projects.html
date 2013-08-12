@@ -5,11 +5,13 @@ title: Projects
 
 <div class="projects">
 
-  <a href="http://twitteripsum.herokuapp.com" id="twitter_ipsum">Twitter Ipsum</a>
-  <a href= "http://www.patchlearn.com" id="patchlearn">PatchLearn</a>
-  <a href="http://www.happilabs.org" id="happilabs">Happilabs</a>
+  <a href="http://twitteripsum.herokuapp.com" class="project" id="twitter_ipsum">Twitter Ipsum</a>
+  <a href= "http://www.patchlearn.com" class="project" id="patchlearn">PatchLearn</a>
+  <a href="http://www.happilabs.org" class="project" id="happilabs">Happilabs</a>
 
 </div>
+
+
 
 <script>
 
@@ -26,7 +28,7 @@ title: Projects
     });
 
     $("#happilabs").mouseover(function() {
-        $(this).text("Collecting data and reviews for scientific products");
+        $(this).text("Data and reviews for scientific products");
       }).mouseout(function(){
         $(this).text("Happilabs");
     });

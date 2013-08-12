@@ -1,3 +1,7 @@
+.site {
+  width: 780px;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -6,76 +10,73 @@
     visibility: hidden;
 }
 
-.clearfix {display: inline-block;}  /* for IE/Mac */
-
 #main_nav_icon {
-  height: 80px;
-  width: 150px;
-  line-height: 80px;
-  background-color: orangered;
-  color: white;
-  text-align: center;
+  color: orangered;
+  font-size: 30px;
   float: left;
-  display: inline-block;
-}
-
-#main_circle_text {
-  color: white;
-  text-decoration: none;
+  line-height: 40px;
 }
 
 .nav_list {
-  float: left;
-  display: inline-block;
-  height: 80px;
-  width: 80px;
-  background-color: #5c7de5;
-  color: white;
-  margin-left: 1em;
-  line-height: 80px;
-  text-align: center;
+  margin-left: 2em;
+  line-height: 40px;
 }
 
 a.nav_link {
-  color: white;
+  font-size: 16px;
+  color: #5c7de5;
+}
+
+#nav_group {
+  float: right;
+}
+
+.project {
+  height: 80px;
+  font-size: 30px;
+  line-height: 80px;
+  margin-bottom: 1em;
+  display: block;
+  text-decoration: none;
 }
 
 #twitter_ipsum {
-  background-color: black;
-  color: white;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-  margin-top: 1em;
-  display: block;
-  text-decoration: none;
+  color: black;
+  margin-top: 0px;
 }
 
 #patchlearn {
-  background-color: #454A55;
   color: #F57676;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-  margin-top: 1em;
-  display: block;
-  text-decoration: none;
 }
 
 #happilabs {
-  background-color: #00AEEF;
-  color: #FFFF00;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-  margin-top: 1em;
-  display: block;
-  text-decoration: none;
+  color: #00AEEF;
+}
+
+#wooly {
+  padding-top: 2em;
+  width: 200px;
+}
+
+#gmail_text {
+  color: #d14836;
+}
+
+#gmail_text:hover {
+  color: #16a765;
+}
+
+#github_text {
+  color: #2d2d2d;;
+}
+
+#github_text:hover {
+  color: #1B94E0;
 }
 
 .icon_image {
   padding-top: 2em;
-  width: 200px;
+  width: 48%;
 }
 
 #middle_icon {
@@ -83,3 +84,23 @@ a.nav_link {
   margin-right: 7.95px;
 }
 
+
+/*responsive */
+
+/*@media all and (max-width: 560px ) {
+
+  .site {
+    width: 100%;
+    margin: 0px
+  }
+
+  #main_nav_icon {
+    width: 100%
+  }
+
+  .nav_list {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+*/
