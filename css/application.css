@@ -84,23 +84,56 @@ a.nav_link {
   margin-right: 7.95px;
 }
 
+#displayed_post_title {
+  font-size: 30px;
+  color: #25515F;
+}
+
 
 /*responsive */
-
-/*@media all and (max-width: 560px ) {
+@media all and (max-width: 560px ) {
 
   .site {
     width: 100%;
-    margin: 0px
+    margin: 5px
   }
 
   #main_nav_icon {
     width: 100%
   }
 
+  #nav_group {
+    float: left
+  }
+
   .nav_list {
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 5px;
+  }
+
+  ul.posts span {
+    display:block;clear:both;
+  }
+
+  ul.posts li {
+    font-size: 20px;
+  }
+
+  #displayed_post_title {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .site .header h1.title {
+    margin-bottom: 0px;
+  }
+
+  #nav_group {
+    margin-bottom: 20px;
+  }
+
+  .project {
+    font-size: 20px;
   }
 }
-*/
+
