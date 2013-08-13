@@ -1,5 +1,5 @@
 .site {
-  width: 780px;
+  width: 785px;
 }
 
 .clearfix:after {
@@ -35,7 +35,7 @@ a.nav_link {
   height: 80px;
   font-size: 30px;
   line-height: 80px;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   display: block;
   text-decoration: none;
 }
@@ -89,6 +89,9 @@ a.nav_link {
   color: #25515F;
 }
 
+::selection {
+  background: #FF9966;
+  }
 
 /*responsive */
 @media all and (max-width: 560px ) {

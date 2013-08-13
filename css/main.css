@@ -26,7 +26,7 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 a         { color: #285E8A; text-decoration: none}
-a:hover   { color: #288A85x; }
+a:hover   { color: #288A85; }
 
 /*****************************************************************************/
 /*
@@ -61,6 +61,7 @@ ul.posts span {
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  padding: 5px;
 }
 
 .site .header a {
