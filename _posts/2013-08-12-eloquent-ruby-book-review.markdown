@@ -33,6 +33,6 @@ The document class example used throughout the text, although comprehensive, was
 Summary:
 --------
 
-This book definitely comes recommended. This was my first major programming read after Chris Pine's _Learn to Program_. It provides great exposure to different uses of ruby beyond the fundamental applications. Olsen covers a large range of useful topics while going into enough depth for each of them. There is a wealth of information provided. It seems like this book is ideal to read to read through and then use as a reference thereafter.
+This book definitely comes recommended. This was my first major programming read after Chris Pine's _Learn to Program_. It provides great exposure to different uses of ruby beyond the fundamental applications. Olsen covers a large range of useful topics while going into enough depth on each of them. There is a wealth of information provided. It seems like this book is ideal to read through and then use as a reference thereafter.
 
 One last note--I have started reading _Practical Object-Oriented Design in Ruby: An Agile Primer_ by Sandi Metz, and I wish that I had read that before _Eloquent Ruby_. The Metz book seems just a bit more approachable for a newer programmer, but that is not to say that _Eloquent Ruby_ was not.
