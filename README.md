@@ -1,4 +1,4 @@
-[aweiksnar.github.io](aweiksnar.github.io)
+[aweiksnar.github.io](http://aweiksnar.github.io)
 ===================
 
 Personal website for blog posts and links.
