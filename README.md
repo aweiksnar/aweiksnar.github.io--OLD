@@ -1,6 +1,6 @@
-aweiksnar.github.io
+[aweiksnar.github.io](aweiksnar.github.io)
 ===================
 
-+ Personal website for future blog posts and links
+Personal website for blog posts and links.
 
-+ Created Using [jekyll](http://jekyllrb.com/) and [github pages](http://pages.github.com/)
+Created Using [jekyll](http://jekyllrb.com/) and [github pages](http://pages.github.com/).
