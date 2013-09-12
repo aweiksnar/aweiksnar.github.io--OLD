@@ -1,5 +1,6 @@
 .site {
   width: 785px;
+  word-wrap: break-word;
 }
 
 .clearfix:after {
