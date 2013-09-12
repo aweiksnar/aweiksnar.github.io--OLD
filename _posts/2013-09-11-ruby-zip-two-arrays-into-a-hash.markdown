@@ -19,7 +19,7 @@ Include the splat operator inside of an array created with the bracket syntax, a
 
 Since the splat operator can be used to collect values, in this context it collects the values of the range and places them inside the array.
 
-Lets say that we wanted to merge the above arrays into a hash so that the letters are keys to the numerical values. This can be accomplished with the [.zip](http://www.ruby-doc.org/core-2.0.0/Array.html#method-i-zip) method, which can pair the two arrays of equivalent length when used with the [Hash[]](http://www.ruby-doc.org/core-2.0.0/Hash.html#method-c-5B-5D) method.
+Let's say that we wanted to merge the above arrays into a hash so that the letters are keys to the numerical values. This can be accomplished with the [.zip](http://www.ruby-doc.org/core-2.0.0/Array.html#method-i-zip) method, which can pair the two arrays of equivalent length when used with the [Hash[]](http://www.ruby-doc.org/core-2.0.0/Hash.html#method-c-5B-5D) method.
 
 {% highlight ruby %}
 Hash[[*"A".."J"].zip [*1..10]]
