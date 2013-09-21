@@ -5,6 +5,7 @@ title: Projects
 
 <div class="projects">
 
+  <a href="http://giantpic.herokuapp.com" class="project" id="giantpic">Giantpic</a>
   <a href="http://twitteripsum.herokuapp.com" class="project" id="twitter_ipsum">Twitter Ipsum</a>
   <a href= "http://www.patchlearn.com" class="project" id="patchlearn">PatchLearn</a>
   <a href="http://www.happilabs.org" class="project" id="happilabs">Happilabs</a>
@@ -14,6 +15,12 @@ title: Projects
 
 
 <script>
+
+    $("#giantpic").mouseover(function() {
+        $(this).text("Big Image Sharing");
+      }).mouseout(function(){
+        $(this).text("Giantpic");
+    });
 
     $("#twitter_ipsum").mouseover(function() {
         $(this).text("Generates lorem ipsum from twitter");

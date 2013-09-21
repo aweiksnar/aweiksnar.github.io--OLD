@@ -41,9 +41,12 @@ a.nav_link {
   text-decoration: none;
 }
 
+#giantpic {
+  color: orange;
+}
+
 #twitter_ipsum {
   color: black;
-  margin-top: 0px;
 }
 
 #patchlearn {
