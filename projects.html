@@ -16,28 +16,18 @@ title: Projects
 
 <script>
 
-    $("#giantpic").mouseover(function() {
-        $(this).text("Big Image Sharing");
-      }).mouseout(function(){
-        $(this).text("Giantpic");
-    });
+    displayProject = function(id, title, text, color) {
+      $(id).css("color", color)
+      $(id).mouseover(function() {
+          $(this).text(text);
+        }).mouseout(function(){
+          $(this).text(title);
+      });
+    };
 
-    $("#twitter_ipsum").mouseover(function() {
-        $(this).text("Generates lorem ipsum from twitter");
-      }).mouseout(function(){
-        $(this).text("Twitter Ipsum");
-    });
-
-    $("#patchlearn").mouseover(function() {
-        $(this).text("Collect and share your favorite learning links");
-      }).mouseout(function(){
-        $(this).text("PatchLearn");
-    });
-
-    $("#happilabs").mouseover(function() {
-        $(this).text("Data and reviews for scientific products");
-      }).mouseout(function(){
-        $(this).text("Happilabs");
-    });
+    displayProject("#giantpic", "Giantpic", "Big Image Sharing", "orange")
+    displayProject("#twitter_ipsum", "Twitter Ipsum", "Generates lorem ipsum from twitter", "black")
+    displayProject("#patchlearn", "PatchLearn", "Collect and share your favorite learning links", "#F57676")
+    displayProject("#happilabs", "Happilabs", "Data and reviews for scientific products", "#00AEEF")
 
 </script>
