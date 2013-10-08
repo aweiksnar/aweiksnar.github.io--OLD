@@ -4,11 +4,11 @@
 }
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 #main_nav_icon {
@@ -71,7 +71,8 @@ a.nav_link {
   }
 
   #main_nav_icon {
-    width: 100%
+    width: 100%;
+    margin: 15px 0px;
   }
 
   #nav_group {
