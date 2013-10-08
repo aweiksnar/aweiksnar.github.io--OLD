@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #F8F9FB;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px Trebuchet MS,Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -25,8 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em;}
 p { margin: 1em 0; }
 
-a         { color: #285E8A; text-decoration: none}
-a:hover   { color: #288A85; }
+a         { color: #444; text-decoration: none}
+a:hover   { color: #0093cc; }
 
 /*****************************************************************************/
 /*
@@ -71,7 +71,7 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .site .header h1.title a {

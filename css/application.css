@@ -12,10 +12,9 @@
 }
 
 #main_nav_icon {
-  color: orangered;
-  font-size: 30px;
+  color: #3a3a3a;
+  font-size: 50px;
   float: left;
-  line-height: 40px;
 }
 
 .nav_list {
@@ -25,7 +24,7 @@
 
 a.nav_link {
   font-size: 16px;
-  color: #5c7de5;
+  /*color: #0093cc;*/
 }
 
 #nav_group {
@@ -46,22 +45,6 @@ a.nav_link {
   width: 200px;
 }
 
-#gmail_text {
-  color: #d14836;
-}
-
-#gmail_text:hover {
-  color: #16a765;
-}
-
-#github_text {
-  color: #2d2d2d;;
-}
-
-#github_text:hover {
-  color: #1B94E0;
-}
-
 .icon_image {
   padding-top: 2em;
   width: 48%;
@@ -74,7 +57,7 @@ a.nav_link {
 
 #displayed_post_title {
   font-size: 30px;
-  color: #25515F;
+  color: #0093cc;
 }
 
 ::selection {
