@@ -12,7 +12,6 @@
 }
 
 #main_nav_icon {
-  color: #3a3a3a;
   font-size: 50px;
   float: left;
 }
@@ -24,7 +23,6 @@
 
 a.nav_link {
   font-size: 16px;
-  /*color: #0093cc;*/
 }
 
 #nav_group {
@@ -65,7 +63,7 @@ a.nav_link {
   }
 
 /*responsive */
-@media all and (max-width: 560px ) {
+@media all and (max-width: 480px ) {
 
   .site {
     width: 100%;
