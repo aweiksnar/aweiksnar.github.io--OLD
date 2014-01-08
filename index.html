@@ -4,3 +4,17 @@ title: Alex Weiksnar
 ---
 
 <img id="wooly" src="/assets/woolym.jpg" />
+
+<script>
+$(document).ready(function(){
+  setInterval(function() {
+      offset = (($(window).width() - $(".site").width()) / 2)
+      var image = $("<img id='wooly' src='/assets/woolym.jpg' />").css({
+        position: "absolute",
+        top: Math.floor((Math.random()*350)+100) + "px",
+        left: Math.floor(offset + (Math.random()*($(".site").width()-200))) + "px"
+      });
+    $(".site").append(image)
+  }, 4000);
+});
+</script>
